@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tik-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="zeroCross.png" type="image/x-icon">
+</head>
+<body class=" max-w-full h-[800px] bg-gradient-to-b from-slate-300 m-0 box-border">
+    <main class="max-w-[80vw] mx-auto flex flex-col justify-center items-center mt-5">
+        <p class=" font-extrabold stroke-yellow-950 stroke-2 text-6xl mb-[1rem] ">Tik-tac-toe</p> 
+        <p id="title" class=" font-extrabold stroke-yellow-950 text-4xl hidden text-pink-500 h-[3rem] "></p>
+        <button id="new-btn" class="new-btn h-[3rem] w-[8rem] rounded-md border-0 bg-slate-900 text-white font-mullish text-xl items-center mx-auto hover:bg-white hover:text-slate-900 hover:border-2 hover:border-slate-900 hidden">Play again</button>
+        <div class="container items-center mx-auto mt-5 ">
+            <div class="game flex flex-wrap justify-center items-center w-[28rem] mx-auto h-[28rem] border-8 p-6">
+                <button class="boxes border-b-red-950 border-r-red-950 border-r-8 border-b-8 h-[8rem] w-[8rem] bg-blue-400 text-6xl font-archivo rounded-tl-md hover:bg-blue-500 hover: text-red-950 duration-75 ease-linear"></button>
+                <button class="boxes border-b-red-950 border-r-red-950 border-r-8 border-l-red-950 border-l-8 border-b-8 h-[8rem] w-[8rem] bg-blue-400 text-6xl font-archivo hover:bg-blue-500 hover: text-red-950 duration-75 ease-linear"></button>
+                <button class="boxes  border-b-red-950  border-l-red-950 border-l-8 border-b-8 h-[8rem] w-[8rem] bg-blue-400 text-6xl font-archivo rounded-tr-md hover:bg-blue-500 hover: text-red-950 duration-75 ease-linear"></button>
+                <button class="boxes border-t-red-950 border-b-red-950 border-r-red-950 border-b-8 border-r-8 border-t-8 h-[8rem] w-[8rem] bg-blue-400 text-6xl font-archivo hover:bg-blue-500 hover: text-red-950 duration-75 ease-linear"></button>
+                <button class="boxes border-b-red-950 border-t-red-950 border-l-red-950 border-l-8 border-r-red-950 border-r-8 border-t-8 border-b-8 h-[8rem] w-[8rem] bg-blue-400 text-6xl font-archivo hover:bg-blue-500 hover: text-red-950 duration-75 ease-linear"></button>
+                <button class="boxes border-b-red-950 border-t-red-950 border-l-red-950 border-l-8 border-t-8 border-b-8 h-[8rem] w-[8rem] bg-blue-400 text-6xl font-archivo hover:bg-blue-500 hover: text-red-950 duration-75 ease-linear"></button>
+                <button class="boxes  border-t-red-950 border-r-red-950 border-r-8 border-t-8  h-[8rem] w-[8rem] bg-blue-400 text-6xl font-archivo rounded-bl-md hover:bg-blue-500 hover: text-red-950 duration-75 ease-linear"></button>
+                <button class="boxes  border-t-red-950 border-r-red-950 border-l-red-950 border-r-8 border-t-8  border-l-8 h-[8rem] w-[8rem] bg-blue-400 text-6xl font-archivo hover:bg-blue-500 hover: text-red-950 duration-75 ease-linear"></button>
+                <button class="boxes  border-t-red-950 border-l-red-950 border-t-8  border-l-8  h-[8rem] w-[8rem] bg-blue-400 text-6xl font-archivo rounded-br-md hover:bg-blue-500 hover: text-red-950 duration-75 ease-linear"></button>
+            </div>
+        </div>
+        <button id="reset-btn"
+            class="new-btn h-[3rem] w-[8rem] rounded-md border-0 bg-slate-900 text-white font-mullish text-xl items-center mx-auto hover:bg-white hover:text-slate-900 hover:border-2 hover:border-slate-900 mt-5 ">Reset game
+        </button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
